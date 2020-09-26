@@ -1,0 +1,22 @@
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  color: $title-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

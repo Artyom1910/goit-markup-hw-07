@@ -1,0 +1,40 @@
+.address .link {
+  color: $primary-text-color;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: $primary-text-color;
+}
+
+.mail-link:hover svg {
+  fill: $accent-color;
+}
+
+.phono-link:hover svg {
+  fill: $accent-color;
+}
+
+.logo-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: $primary-text-color;
+}

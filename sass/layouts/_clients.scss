@@ -1,0 +1,68 @@
+.clients-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+  border-radius: 4px;
+  -webkit-transition: 250ms $timing;
+  transition: 250ms $timing;
+
+  &:hover {
+    border: 1px solid $accent-color;
+  }
+}
+
+.icon-brand {
+  fill: #afb1b8;
+}
+
+.clients-icon:hover .icon-brand {
+  fill: $accent-color;
+}
+
+.icon-yaco {
+  width: 44px;
+  height: 49px;
+}
+
+.icon-company {
+  width: 40px;
+  height: 52px;
+}
+
+.icon-company3 {
+  width: 41px;
+  height: 42px;
+}
+
+.icon-foster {
+  width: 80px;
+  height: 42px;
+}
+
+.icon-company5 {
+  width: 59px;
+  height: 47px;
+}
+
+.icon-tag {
+  width: 88px;
+  height: 45px;
+}
+
+.list-clients {
+  margin-right: 30px;
+}
+
+.list-clients:nth-child(6n) {
+  margin-right: 0;
+}
