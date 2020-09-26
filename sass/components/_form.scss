@@ -60,14 +60,6 @@ textarea {
   border-radius: 2px;
 }
 
-.checked-input:checked ~ .checkbox-box {
-  border-color: $accent-color;
-  background-image: url(../logo/iconcheck.svg);
-  background-color: $accent-color;
-  background-origin: border-box;
-  background-size: contain;
-}
-
 .checked-input {
   position: absolute;
   width: 1px;
@@ -77,4 +69,12 @@ textarea {
   padding: 0;
   clip: rect 0 0 0 0;
   overflow: hidden;
+
+  &:checked ~ .checkbox-box {
+    border-color: $accent-color;
+    background-image: url(../logo/iconcheck.svg);
+    background-color: $accent-color;
+    background-origin: border-box;
+    background-size: contain;
+  }
 }

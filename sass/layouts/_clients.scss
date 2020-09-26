@@ -19,14 +19,13 @@
   &:hover {
     border: 1px solid $accent-color;
   }
-}
 
+  &:hover .icon-brand {
+    fill: $accent-color;
+  }
+}
 .icon-brand {
   fill: #afb1b8;
-}
-
-.clients-icon:hover .icon-brand {
-  fill: $accent-color;
 }
 
 .icon-yaco {
@@ -61,8 +60,8 @@
 
 .list-clients {
   margin-right: 30px;
-}
 
-.list-clients:nth-child(6n) {
-  margin-right: 0;
+  &:nth-child(6n) {
+    margin-right: 0;
+  }
 }

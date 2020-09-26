@@ -86,16 +86,16 @@
 
 .subscribe-form .hero-button {
   margin-top: 20px;
-}
 
-.subscribe-form .hero-button::after {
-  display: inline-block;
-  background-image: url(../logo/send.svg);
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 24px;
-  height: 24px;
-  content: "";
-  margin-left: 10px;
+  & .hero-button::after {
+    display: inline-block;
+    background-image: url(../logo/send.svg);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    content: "";
+    margin-left: 10px;
+  }
 }
